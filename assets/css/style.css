@@ -1,0 +1,231 @@
+body {
+  color: #777777;
+  margin-left: 0;
+  margin-right: 0;
+  background-image: url("../images/vertical-waves.png");
+  background-repeat: repeat;
+}
+
+a {
+  all: none;
+}
+
+#nav {
+  margin: 0px;
+  border: 5px;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  border-bottom-style: solid;
+  padding: 18px;
+  font-family: Georgia;
+  z-index: 10;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+#welcome {
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  margin-left: 10%;
+  padding: 18px 30px 18px 30px;
+  font-size: 35px;
+  font-weight: 800;
+  overflow: hidden;
+
+}
+
+#links {
+  margin-right: 15%;
+  float: right;
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+#about {
+  padding: 0 15 0 15;
+}
+
+#portfolio {
+  padding: 0 15 0 15;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-color: #cccccc;
+}
+
+#contact {
+  padding: 0 15 0 15;
+}
+
+a:link {
+  text-decoration: none;
+  color: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #777777;
+}
+
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+a:active {
+  text-decoration: none;
+  /* color: #777777; */
+}
+
+#do {
+  color: white;
+}
+/*BODY BODY BODY BODY BODY BODY  */
+
+#content {
+  background: #ffffff;
+  font-family: "Times New Roman", Times, sans-serif;
+  line-height: 18px;
+  margin: auto;
+  margin-bottom: 100px;
+  border: solid #dddddd;
+  /* width: 960px; */
+  /* position: relative; */
+  top: 50px;
+  overflow: auto;
+}
+
+#heading {
+  padding: 5px 0px 5px 30px;
+  color: #4aaaa5;
+}
+
+#words {
+  padding: 20px 20px;
+  border-top: 2px gray solid;
+  border-left: solid 20px #ffffff;
+  border-right: solid 20px #ffffff;
+  font-size: 20;
+}
+
+/* CONTACT CONTACT CONTACT CONTACT CONTACT */
+input {
+  width: 740px;
+  height: 25px;
+  display: block;
+  font-size: 20px;
+  margin: 10 0 10 0;
+}
+
+#message {
+  height: 200px;
+}
+
+#submit {
+  margin: 15px;
+  width: 150px;
+  background-color: #4aaaa5;
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+footer {
+  margin: auto;
+  background-color: #666666;
+  border-color: #4aaaa5;
+  border-top-style: solid;
+  border-top-width: 8px;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  font-family: Georgia;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  z-index: 30;
+
+
+}
+
+
+#aboutpic {
+  height: 30%;
+  float: left;
+  padding: 15px;
+}
+
+.portfoliopics {
+  width: 200px;
+  height: 250px;
+  margin: 40 45 40 45;
+  position: relative;
+  border: black 1px solid;
+  text-align: center;
+  color: white;
+
+}
+
+#hangman-text-block {
+  position: absolute;
+  background-color: #4aaaa5;
+  z-index: 10;
+  top: 100;
+  padding: 5 15 5 20;
+  color: white;
+  overflow: auto;
+  width: auto;
+
+}
+
+#rpggame-text-block {
+  position: absolute;
+  background-color: #4aaaa5;
+  z-index: 10;
+  top: 100;
+  padding: 5 7 5 7;
+  color: white;
+  overflow: auto;
+
+}
+
+#trivia-text-block {
+  position: absolute;
+  background-color: #4aaaa5;
+  z-index: 10;
+  top: 100;
+  padding: 10 5 10 5;
+  color: white;
+  overflow: auto;
+  font-size: 30;
+
+}
+
+#rutgers-text-block {
+  position: absolute;
+  background-color: #4aaaa5;
+  z-index: 10;
+  top: 100;
+  padding: 5 7 5 7;
+  color: white;
+  overflow: auto;
+  font-size: 18;
+
+}
+
+#rockpaper-text-block {
+  position: absolute;
+  background-color: #4aaaa5;
+  z-index: 10;
+  width: auto;
+  top: 100;
+  padding: 5 3 5 3;
+  color: white;
+  overflow: auto;
+  font-size: 19;
+
+}
